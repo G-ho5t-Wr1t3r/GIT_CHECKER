@@ -30,7 +30,7 @@ Se al primo avvio hai fatto impostare l'alias automaticamente allo script, ti co
 Ecco un esempio pratico utilizzando **Conda** (puoi fare lo stesso attivando un `venv` normale):
 
 ```bash
-alias git-check='conda activate git_checker_venv; python3 "/var/home/gianny/Desktop/MY_CODING/GIT_CHECKER/git_checker_tui.py"; conda deactivate'
+alias git-check='conda activate git_checker_venv; python3 "PATH/GIT_CHECKER/git_checker_tui.py"; conda deactivate'
 ```
 
 In questo modo, digitando il comando `git-check`, il sistema attiverà l'ambiente corretto, avvierà la TUI e disattiverà l'ambiente non appena l'interfaccia verrà chiusa, mantenendo pulita la sessione del terminale.
